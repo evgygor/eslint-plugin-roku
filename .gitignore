@@ -6,4 +6,3 @@ node_modules
 __snapshots__
 .vscode
 .idea
-dist

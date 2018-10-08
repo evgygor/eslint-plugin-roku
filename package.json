@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "eslint-plugin-roku",
-  "repository": "git@github.com:evgygor/eslint-plugin-roku.git",
+  "repository": "git@github.com:RokuRoad/eslint-plugin-roku.git",
   "version": "1.0.1",
   "description": "The ESLint custom plugin with rules and parser for .brs files",
   "keywords": [
@@ -29,22 +29,22 @@
     "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
   },
   "peerDependencies": {
-    "eslint": "5.0.0"
+    "eslint": "5.6.0"
   },
   "dependencies": {
-    "@roku-road/bright": "1.2.8"
+    "@roku-road/bright": "1.2.11"
   },
   "devDependencies": {
+    "@types/jest": "23.3.2",
     "@types/eslint": "4.16.3",
-    "@types/jest": "23.1.1",
-    "@types/node": "^10.3.5",
-    "eslint": "5.0.1",
-    "jest": "23.1.0",
-    "ts-jest": "23.1.4",
-    "semantic-release": "15.9.12",
-    "tslint": "^5.10.0",
-    "tslint-config-prettier": "^1.13.0",
-    "typescript": "2.9.2",
+    "@types/node": "^10.10.1",
+    "eslint": "5.6.0",
+    "jest": "23.6.0",
+    "ts-jest": "23.10.1",
+    "semantic-release": "15.9.16",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "3.0.3",
     "weallcontribute": "1.0.8"
   },
   "engines": {
